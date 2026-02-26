@@ -7,7 +7,7 @@ pipeline {
         DOCKERHUB_REPO = 'blossomboutique'
         VERSION = '$BUILD_ID'
         CONTAINER_NAME = 'app'
-        CONTAINER_PORT = '8003'
+        CONTAINER_PORT = '8000'
         REQUEST_PORT = '80'
     }
     stages {
