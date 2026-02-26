@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'sakit333'
+        DOCKERHUB_USERNAME = 'sinchanaa30'
         DOCKER_IMAGE = 'webapp'
-        DOCKERHUB_REPO = 'zepto-brocode'
+        DOCKERHUB_REPO = 'BlossomBoutique'
         VERSION = '$BUILD_ID'
         CONTAINER_NAME = 'app'
         CONTAINER_PORT = '8003'
