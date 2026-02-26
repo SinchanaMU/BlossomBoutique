@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USERNAME = 'sinchanaa30'
-        DOCKER_IMAGE = 'webapp'
+        DOCKER_IMAGE = 'webb'
         DOCKERHUB_REPO = 'blossomboutique'
         VERSION = '$BUILD_ID'
         CONTAINER_NAME = 'app'
